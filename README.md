@@ -1,7 +1,7 @@
 # Budget Tracker
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Description**: This is a budget tracker application that retains access to the budget tracker and its functionality offline so that a user does not need to have a stable internet connection to use the application. Once the application have a stable connection to the sever, all locally-saved data is pushed to the server's database.
+**Description**: This is a budget tracking application that retains access to the budget tracker and its functionality offline so that a user does not need to have a stable internet connection to use the application. Once the application have a stable connection to the sever, all locally-saved data is pushed to the server's database.
 
 **Deployment Link**: https://serene-chamber-92373.herokuapp.com/
 
