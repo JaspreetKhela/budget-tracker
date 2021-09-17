@@ -1,7 +1,10 @@
+// Import the mongoose npm package
 const mongoose = require("mongoose");
 
+// Define the Schema
 const Schema = mongoose.Schema;
 
+// Define a transaction Schema
 const transactionSchema = new Schema(
   {
     name: {
@@ -20,6 +23,8 @@ const transactionSchema = new Schema(
   }
 );
 
+// Create a Transaction model
 const Transaction = mongoose.model("Transaction", transactionSchema);
 
+// Export the Transaction model
 module.exports = Transaction;
