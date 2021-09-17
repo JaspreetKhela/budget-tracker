@@ -19,10 +19,10 @@
 * [License](#license)
 
 ### Installation
-Please visit the deployment link above.
+Please visit the deployment link above. This application uses the express, mongoose, compression, and morgan npm packages.
 
 ### Usage
-To use this application, navigate to the root folder in the cloned repository's directory and simply type `npm start` into the Command Line Interface to start the server.
+Please visit the deployment link above.
 
 **Screenshots**:
 ![Screen Shot 2021-09-16 at 10 50 12 PM (2)](https://user-images.githubusercontent.com/80941606/133716946-85786d4d-552a-45a3-a27b-1c912cd7f742.png)
