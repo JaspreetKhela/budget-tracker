@@ -77,3 +77,6 @@ function uploadBudget() {
 
 // Listen for app coming back online
 window.addEventListener('online', uploadBudget);
+
+// Export the saveRecord and uploadBudget functions
+module.exports = { saveRecord, uploadBudget };

@@ -4,6 +4,9 @@ let transactions = [];
 // Create a chart variable
 let myChart;
 
+// Import idb file
+const { saveRecord, uploadBudget } = require("./idb.js");
+
 // API GET request for transaction data that will be saved on the client-side db variable
 fetch("/api/transaction")
   .then(response => {
